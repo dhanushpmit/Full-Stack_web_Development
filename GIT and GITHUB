@@ -1,0 +1,28 @@
+Commands
+  clone-cloning a repository that is hosted somewhere like github into a folder on your local machine.
+  add-track your files and changes in git.
+  commit-save your files in git.
+  push-upload git commits to a remote repo,like github.
+  pull-download the changes from remote repo to your local machine,the opposite of push.
+Repository is which is used for uploading our files and project in it.
+
+Long running branches & short lived branches
+  long:
+    Exist through the complete lifetime of the project.
+    Every git repo will contain atleast one long running branch,typically something called main or master.
+    They also called integration branches.
+        commaon convention and no direct commits!
+  Short:
+    For new features,bug fixes,refactories,experiments.
+    Will be deleted after integration.
+  Two examples branching strategies:
+      -Github flow
+      -Git flow
+  Github dlow
+    very simple:only one long-running branch("main")+feature branches.
+  Git flow
+    -more structures,morerules
+    -long running:"main"+"develop"
+    -short lived:features,releases hot fixes.
+  Warning notice:
+     Do not use rebase on commits that you've already pushed on a remote repository.
