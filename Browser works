@@ -1,0 +1,18 @@
+Web browser can refered as client browser,
+beacause it can be a desktop web browser or mobile web browser or application with embedded browser.
+
+URLs-Uniform Resource Locator
+  eg: scheme://domain:port/path?query_string#fragment_id
+      http://en.wikipedia.org/wiki/uniform_restource_locator
+
+    -scheme or protocol is like http or https or ftp or any number of other schemes
+    -domain is the name of the server  and particular machine and it is simple
+
+
+There is an optional which deafaults to port 80 which a normal url doesn't have a port
+The current url displays at the top of the browser,you can type a url and have the browser go get the resource.
+URLs also appear as html tags for resource used in page Like
+  <a href=URl>
+  <img src=URL>
+  <script src=URL>
+  <link rel=URL>
